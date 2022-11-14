@@ -1,0 +1,52 @@
+.page {
+    width: 1000px;
+    margin: 20px auto;
+    box-sizing: border-box; 
+    border: 1px solid green;
+}
+
+.yellow-box {
+    margin: 0;
+    padding: 20px 20px 20px 20px;
+    color:black;
+    background-color: yellow;
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.photo {
+    width: 1000px;
+    height: 900px;
+    background-image: url(boss.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.smaller {
+    font-size: 20px;
+}
+
+h1, p {
+    margin: 20px 20px;
+}
+
+h1 {
+    margin-top: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-size: 30px;
+    background-color: yellow;
+    font-weight: bold;
+    padding: 20px;
+}
+
+p:last-of-type {
+    margin-bottom: 40px;
+}
