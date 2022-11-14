@@ -1,0 +1,39 @@
+.page {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid green;
+}
+
+.red-box {
+    display: block;
+    color: white;
+    background-color: red;
+    padding: 20px;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.three-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.column-one {
+    border: 5px solid yellow;
+    padding: 10px 20px 10px 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 30px;
+}
