@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8BFC7;
+    color: black;
+    font-family: Helvetica;
+    font-size: 20;
+    padding: 33px;
+    font-weight: bold;
+}
+
+.left-header li {
+    list-style-type: none;
+    display: inline;
+    margin: 10px 10px;
+}
+
+.footer {
+    color: white;
+}
+
+.photo {
+    position: relative;
+}
+
+.text-photo {
+    width: 100%;
+    height: 90px;
+    color: #FEB700;
+    background-color: blue;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 150px;
+}
+
+.registration {
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    z-index: 1;
+    background-color: #F8BFC7;
+    color: white;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.form-row {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-row input[type='text'], .form-row input[type='email'] {
+    background-color: #F8BFC7;
+    border-bottom: 3px solid white;
+    font-family: Arial;
+    font-size: 14px;
+    color: white;
+    box-shadow: none;
+}
+
+.form-row label {
+    margin-bottom: 5px;
+}
+
+.form-row input[type='text']:invalid, .form-row input[type='email']:invalid {
+    background-color: red;
+    border-bottom: 3px solid red;
+    box-shadow: none;
+}
+
+.podarok {
+    display: flex;
+    flex-direction: row;
+}
+
+.podarok-2 {
+    margin-left: 15px;
+}
+
+.otpravka button {
+    position: absolute;
+    top: 450px;
+    left: 290px;
+    z-index: 1;
+    background-color: #FEB700;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 20;
+    font-weight: bold;
+    cursor: pointer;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+
+.otpravka button:hover {
+    background-color: green;
+}
+
+.otpravka button:active {
+    background-color: red;
+}

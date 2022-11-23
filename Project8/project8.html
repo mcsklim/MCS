@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+        <title>Project8</title>
+        <link rel="stylesheet" href="project8.css"/>
+    </head>
+    <body>
+        <div class="header">
+            <div class="left-header">
+                <ul>
+                    <li>ПОСЫЛКИ</li>
+                    <li>УПАКОВКА</li>
+                    <li>ПОДПИСКА</li>
+                </ul>
+            </div>
+            <div class="right-header">МЕНЮ</div>
+        </div>
+        <div class="photo">
+            <img src="background.png"/>
+            <div class="text-photo">ВАША ПОСЫЛКА УЖЕ В ПУТИ!</div>
+            <form action="" method="get" class="registration">
+                <div class="form-row">
+                    <label for="name">Имя</label>
+                    <input id="name" name="name" type="text"/>
+                </div>
+                <div class="form-row">
+                    <label for="city">Город</label>
+                    <input id="city" name="city" type="text"/>
+                </div>
+                <fieldset class="form-row podarok">
+                    <legend>Подарок</legend>
+                    <input id="gift-1" name="gift" type="radio" value="soft"/>
+                    <label for="gift-1">Книга в мягком переплете</label>
+                    <input id="gift-2" name="gift" type="radio" value="hard" class="podarok-2" checked/>
+                    <label for="gift-2">Книга в жестком переплете</label>
+                </fieldset>
+                <div class="form-row">
+                    <label for="email">Электронная почта</label>
+                    <input id="email" name="email" type="email" placeholder="mcs@example.com"/>
+                </div>
+            </form>
+            <form action="" method="get" class="send">
+            <div class="otpravka">
+                <button>Отправить</button>
+            </div>
+            </form>
+        </div>
+        <div class="header footer">
+            <div class="left-header">СЕКРЕТНЫЕ ПОСЫЛКИ ДЛЯ ДРУЗЕЙ</div>
+            <div class="right-header">НАЗАД</div>
+        </div>
+    </body>
+</html>
