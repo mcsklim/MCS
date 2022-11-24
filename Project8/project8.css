@@ -71,7 +71,6 @@ fieldset {
     position: absolute;
     top: 90px;
     left: 90px;
-    z-index: 1;
     background-color: #F8BFC7;
     color: white;
     border: 3px solid white;
@@ -118,7 +117,6 @@ button {
     position: absolute;
     top: 350px;
     left: 190px;
-    z-index: 1;
     background-color: #FEB700;
     padding: 15px;
     color: white;
