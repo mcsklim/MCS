@@ -33,6 +33,24 @@
     color: white;
 }
 
+.kartinka {
+    background: url(background.png) 0 0 no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 643px;
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+fieldset {
+    border: none;
+}
+
 .photo {
     position: relative;
 }
@@ -96,10 +114,10 @@
     margin-left: 15px;
 }
 
-.otpravka button {
+button {
     position: absolute;
-    top: 450px;
-    left: 290px;
+    top: 350px;
+    left: 190px;
     z-index: 1;
     background-color: #FEB700;
     padding: 15px;
@@ -113,10 +131,10 @@
     border-radius: 30px;
 }
 
-.otpravka button:hover {
+button:hover {
     background-color: green;
 }
 
-.otpravka button:active {
+button:active {
     background-color: red;
 }
