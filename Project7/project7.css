@@ -25,7 +25,7 @@
 .photos {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin: 30px;
 }
 
@@ -40,7 +40,6 @@ p {
 }
 
 .element img {
-    height: 600px;
     width: 100%;
     display: block;
 }
